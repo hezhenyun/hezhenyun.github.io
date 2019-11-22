@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-20T13:44:50.944Z</updated>
+  <updated>2019-11-22T04:19:30.524Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python2,3</title>
+    <link href="http://yoursite.com/2019/11/22/python2,3/"/>
+    <id>http://yoursite.com/2019/11/22/python2,3/</id>
+    <published>2019-11-22T04:19:30.524Z</published>
+    <updated>2019-11-22T04:19:30.524Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>python爬虫基本原理</title>

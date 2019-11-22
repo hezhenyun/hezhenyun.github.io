@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/11/22/python2,3/</loc>
+    
+    <lastmod>2019-11-22T04:19:30.524Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/10/14/%25E4%25BD%25A0%25E5%25A5%25BD-Hexo/</loc>
     
     <lastmod>2019-11-21T01:14:59.966Z</lastmod>
