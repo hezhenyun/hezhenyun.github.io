@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-02T04:52:12.387Z</updated>
+  <updated>2019-12-04T13:57:38.641Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>爬虫中储存到文件夹的方法</title>
+    <link href="http://yoursite.com/2019/12/04/os%E6%A8%A1%E5%9D%97/"/>
+    <id>http://yoursite.com/2019/12/04/os%E6%A8%A1%E5%9D%97/</id>
+    <published>2019-12-04T13:57:57.972Z</published>
+    <updated>2019-12-04T13:57:38.641Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-创建文件夹"><a href="#1-创建文件夹" class="headerlink" title="1.创建文件夹"></a>1.创建文件夹</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">filetitle = os.path.join(os.curdir, <span class="string">'reads'</span>)</span><br><span class="line">建立文件夹，os.curdir(为当地地址)，创建语法为os.path.jion, <span class="string">'reads'</span>为文件夹的名称</span><br><span class="line"><span class="keyword">if</span> not os.path.isdir(fileread):</span><br><span class="line">    os.mkdir(fileread)</span><br><span class="line">os.path.isdir用来判断此文件夹是否存在，不存在则重新建立，建立方法为os.mkdir()</span><br></pre></td></tr></table></figure><h2 id="2-文件夹中文件的名称"><a href="#2-文件夹中文件的名称" class="headerlink" title="2.文件夹中文件的名称"></a>2.文件夹中文件的名称</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">filename = i + <span class="string">'.txt'</span>  <span class="comment"># 每个文件的名字</span></span><br><span class="line">filename为传递的变量，i 为所选择的文件名，后缀为.txt</span><br></pre></td></tr></table></figure><h2 id="3-把文件存放在文件夹中"><a href="#3-把文件存放在文件夹中" class="headerlink" title="3.把文件存放在文件夹中"></a>3.把文件存放在文件夹中</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filepath = os.path.join(filetitle, filename)     <span class="comment"># 把每个文件都放在filetitle文件夹里</span></span><br></pre></td></tr></table></figure><p>此处使用路径连接  ()里为文件夹变量以及文件名变量</p><p>最后写入并进行保存就OK了</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-创建文件夹&quot;&gt;&lt;a href=&quot;#1-创建文件夹&quot; class=&quot;headerlink&quot; title=&quot;1.创建文件夹&quot;&gt;&lt;/a&gt;1.创建文件夹&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>python strip()方法</title>
